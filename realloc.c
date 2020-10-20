@@ -42,7 +42,6 @@ int main(){
 
 void * realloc_MOD(void *pont, size_t newSize,int oldSize){
     void *palavra;
-    int size_test;
 
     if (newSize == 0){
         printf("Novo tamnho é zero, ponteiro liberado!\n");
